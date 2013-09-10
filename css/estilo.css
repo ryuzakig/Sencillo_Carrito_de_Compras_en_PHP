@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+a{text-decoration:none}
+.oc{display:none}
+
+body{margin:0 20px; padding:0;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:12px;background:url(../img/fondo.jpg);color: #444;}
+
+.lightbox { left: -999em; position: absolute; }
+			.lightbox { left: -999em; position: absolute; }
+			.lightbox:target { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+			.lightbox:target .close a { background: rgba(0, 0, 0, 0.75); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+			.close span { color: #FFFFFF; font-size: 2em; text-indent: 0; position: absolute; right: 0.5em; top: 0.5em; }
+			.close {text-indent: -999em;}
+			.lightbox:target div {position: absolute; left: 50%; top: 50%; z-index: 99; }
+			.w60p { margin-left: -30%; width: 60%; } .w300 { margin-left: -150px; width: 300px; } .w640 { margin-left: -320px; width: 640px; }
+			.h60 { height: 60px; margin-top: -30px; } .h400 { height: 400px; margin-top: -200px; } .h386 { height: 386px; margin-top: -193px; }
+			.scroll { overflow-y: scroll; padding: 0 1em; }
+			.boxfocus { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+			.boxfocus div {	background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
+			.boxfocus .close a { background-image: url('trans.png'); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+			.flotante1{width:265px;height:297px;color:#939393;font-size:12px;padding:23px 23px 23px 133px;background:#fff url(../img/reloj.jpg) 23px 23px no-repeat}
+			.flotante1 h1{font-size:18px !important;font-family:Arial !important;color:#0087cb !important;padding-bottom:10px}
+			.flotante1 p{padding-bottom:20px}
+			.flotante1 span{color:#0087cb;text-decoration:none}
+
+.FR{float:right}
+.FL{float:left}
+
+#total{width:962px;margin:0 auto}
+#nav{
+	width: 887px;
+	height: 31px;
+	float: left;
+	text-align: left;
+	margin: 0px 0px 10px 0px;
+	padding-top: 16px;
+	padding-left: 17px;
+	background-image: url(../img/navigationbar.gif);
+	background-repeat: no-repeat;}
+#nav  li {
+	float: left;
+	position: relative;
+	list-style: none;
+	margin: 0px;
+	padding:0;
+}
+#nav li a {
+	display: block;
+	height: 20px;
+	width: auto;
+}
+a.main {
+	color: #444; 
+	text-decoration: none;
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#nav li a:hover {
+	text-decoration: none; 
+	color: #008fbe;
+}
+#nav  ul {
+	margin:0;
+	padding:0;
+}
+	
+#cuerpo{background:url(../img/cabecera.png) no-repeat;float:left;width:904px; margin:0 auto;}
+	#contenido{background:url(../img/cuerpo.png) repeat-y;padding:18px;margin-top:8px;width:904px;float:left; }
+	#cabecera{float:left;width:926px}
+.mi_vi{ width:400px; height:150px; float:left; text-align:center; margin: 0 30px 0 40px; background-color: #008fbe; padding-top:20px; border-radius: 15px 15px; color:white;}	
+#vision{ float:right;}
+#productos{text-align:center; margin:0 auto; clear:both;}
+#paginacion {
+	text-align:center;
+	margin:15px 400px;
+
+}
+#formulario {
+	padding: 1em;
+}
+
+#formulario fieldset {
+	
+	width: 400px;
+	padding: 0 0 0 0;
+	border: 0;
+	
+}
+
+#formulario label {
+	
+	display: block;
+	padding: 5px 0 5px 0;
+	
+}
+
+#formulario input[type=text], textarea {
+	
+	padding: 10px 0 10px 0;
+	border: 1.5px solid black;
+	color: #5b5c5c;
+	font-family: inherit;
+	font-size: inherit;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 3px;
+	
+}
+
+#formulario input[type=text]:focus, textarea:focus {
+	
+	background: #f5f2c9;
+	
+}
+
+#formulario input[type=submit] {
+	
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	-moz-border-radius: 4px;
+	background:#6D99E0;
+	color: black;
+	width: 100px;
+		
+}
+
+#formulario input[type=submit]:hover {
+	background: #06F;
+	cursor: pointer;
+}
+
+#validar-nombre, #validar-correo, #validar-sitio, #validar-mensaje {
+	position: absolute;
+	width: 100px;
+}
+
+#validar-nombre img, #validar-correo img, #validar-mensaje img {
+	padding:10px 0 0 5px;
+}
+#contenido2{ background-color:#b7bec6; padding-top:20px;}
+.registro_caja {
+	background-color: #c9e1e5;
+	width: 400px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	border-radius:10px 10px;
+	padding:5px;
+}
+#pie{background:url(../img/pie.png) no-repeat;float:left;width:940px;padding-top:20px;text-align:center;padding-bottom:20px}
+#pie p{color: #444;}
+tr{float:left;}
+	
+	
